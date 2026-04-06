@@ -1,31 +1,8 @@
-# Library Template
+# Load Balancing Library
 
 ## Overview
 
-Template repository for creating C# libraries across the platform.
-
-### What is contained here?
-
-In here you will find common things such as NuGet targets for the internal
-NuGet repository.
-
-The Directory.Build.props also provides common properties that all
-libraries should have.
-
-### How to use?
-
-To use this repository standalone (without rbx-dev):
-
-```bash
-# Clone the repository
-$ git clone git@github.rbxlabs.dev:roblox/library-template.git test-library
-
-# Initialize the solution
-$ dotnet new sln --name Test
-
-# Create projects
-$ dotnet new classlib --name Roblox.Test.Library --output src
-```
+C# library for load balancing algorithms. This library is used by the load balancer service in Roblox's web platform.
 
 # Notice
 

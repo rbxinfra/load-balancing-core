@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Roblox Load Balancing Library</Description>
+
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Roblox.ApplicationContext" Version="1.2.4" />
+    <PackageReference Include="Roblox.Configuration" Version="1.2.4" />
+    <PackageReference Include="Roblox.EventLog" Version="1.2.4" />
+    <PackageReference Include="Roblox.Networking" Version="1.2.4" />
+  </ItemGroup>
+
+</Project>
